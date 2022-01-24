@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 html {
     font-size: 16px;
     scroll-behavior: smooth;
@@ -13,6 +13,7 @@ p {
 
 h1 {
     font-size: 3rem;
+    margin: 1%;
 }
 
 h2 {
@@ -21,6 +22,7 @@ h2 {
 
 h3 {
     font-size: 1.6rem;
+    margin: 0%;
 }
 
 h4 {
@@ -29,6 +31,7 @@ h4 {
 
 h5 {
     font-size: 1.15rem;
+    margin: 1%;
 }
 
 h6 {
@@ -41,7 +44,8 @@ h6 {
 
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(242, 215, 208);
 }
 
 
@@ -77,15 +81,20 @@ body {
 }
 
 .column-nav {
-    width: 25%;
+    width: 15%;
     float: left;
     position: fixed;
 }
 
-.column-75 {
-    width: 75%;
+.column-news {
+    width: 15%;
     float: left;
-    margin-left: 25%;
+}
+
+.column-75 {
+    width: 70%;
+    float: left;
+    margin-left: 15%;
 }
 
 
@@ -99,7 +108,7 @@ body {
 
 header {
     height: 100vh;
-    background-image: url("../img/brandon-burridge-4o7f9_Z73a4-unsplash.jpg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -110,50 +119,53 @@ img {
 }
 
 #img-1 {
+    background-image: url("../img/carles-rabada-kMde0v9tYYM-unsplash.jpg");
     height: 50vh;
-    background-image: url("../img/arya-krisdyantara-LTEfj149DLQ-unsplash.jpg");
     background-size: cover;
     background-position: center;
+    margin: 3%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
 }
 
 #img-2 {
     height: 50vh;
-    background-image: url("../img/colin-lloyd-DvVcwl4cUsc-unsplash.jpg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
 }
 
 #img-3 {
     height: 50vh;
-    background-image: url("../img/scott-rodgerson-G6dXvXN2gVM-unsplash.jpg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
 }
 
 #card-1 {
     height: 50vh;
-    background-image: url("../img/isabela-kronemberger-hxOg4o5oNFA-unsplash.jpg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
 }
 
 #card-2 {
     height: 50vh;
-    background-image: url("../img/maxim-shklyaev-a1CJ9CV15cM-unsplash.jpg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
 }
 
 #card-3 {
     height: 50vh;
-    background-image: url("../img/filipp-romanovski-vW-7jhb84Nw-unsplash.jpg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
 }
 
 #card-4 {
     height: 50vh;
-    background-image: url("../img/alex-kulikov-thGJR-5J4jU-unsplash.jpg");
+    background-image: url("");
     background-size: cover;
     background-position: center;
 }
@@ -181,6 +193,34 @@ footer p {
     font-size: 0.8rem;
 }
 
+#titulo {
+    text-align: center;
+}
+
+#intro {
+    box-shadow: 10px 10px 5px rgb(255, 174, 108);
+    background-color: rgb(242, 180, 126);
+    padding: 2%;
+    border-radius: 5px;
+    width: 28%;
+}
+
+#turismo {
+    box-shadow: 10px 10px 5px rgb(255, 174, 108);
+    background-color: rgb(242, 180, 126);
+    padding: 2%;
+    border-radius: 5px;
+    width: 12%;
+}
+
+#galeria {
+    box-shadow: 10px 10px 5px rgb(255, 174, 108);
+    background-color: rgb(242, 180, 126);
+    padding: 2%;
+    border-radius: 5px;
+    width: 11%;
+}
+
 
 /* clases auxiliares */
 
@@ -193,11 +233,12 @@ footer p {
 }
 
 .back-white {
-    background-color: white;
+    background-color: rgb(242, 215, 208);
 }
 
 .back-gray {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(217, 143, 143);
+    color: white;
 }
 
 @media only screen and (max-width: 700px) {
