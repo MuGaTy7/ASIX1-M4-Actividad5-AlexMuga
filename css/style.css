@@ -241,6 +241,10 @@ img {
     background-position: center;
 }
 
+#menu {
+    height: 100%;
+}
+
 article {
     background-color: rgb(227, 227, 227);
 }
@@ -251,7 +255,6 @@ a {
 }
 
 #prefooter {
-    background-color: #495057;
     color: whitesmoke;
 }
 
@@ -377,5 +380,44 @@ footer p {
     .column-news {
         width: 100%;
         margin-left: 0%;
+    }
+    /*TITULOS:*/
+    #intro {
+        width: 55%;
+    }
+    #turismo {
+        width: 22%;
+    }
+    #actividades {
+        width: 30%;
+    }
+    #alojamiento {
+        width: 30%;
+    }
+    #galeria {
+        width: 20%;
+    }
+    #noticias {
+        width: 27%;
+        padding: 2%;
+    }
+    /*FOTOS ACTIVIDADES*/
+    #img-1-act {
+        height: 68vh;
+    }
+    #img-2-act {
+        height: 68vh;
+    }
+    #img-3-act {
+        height: 68vh;
+    }
+    #img-1-aloj {
+        height: 44vh;
+    }
+    #img-2-aloj {
+        height: 44vh;
+    }
+    #img-3-aloj {
+        height: 44vh;
     }
 }
