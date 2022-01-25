@@ -45,7 +45,7 @@ h6 {
 body {
     margin: 0;
     font-family: 'Abel', sans-serif;
-    background-color: rgb(242, 215, 208);
+    background-color: rgb(193, 209, 224);
 }
 
 
@@ -81,14 +81,16 @@ body {
 }
 
 .column-nav {
-    width: 15%;
+    width: 13%;
     float: left;
     position: fixed;
+    margin-right: 2%;
 }
 
 .column-news {
-    width: 15%;
+    width: 13%;
     float: left;
+    margin-left: 2%;
 }
 
 .column-75 {
@@ -118,54 +120,123 @@ img {
     width: 100%;
 }
 
-#img-1 {
+#img-intro {
     background-image: url("../img/carles-rabada-kMde0v9tYYM-unsplash.jpg");
     height: 50vh;
     background-size: cover;
     background-position: center;
     margin: 3%;
+    margin-left: 0%;
     border-style: solid;
     border-color: rgb(0, 0, 0);
+    box-shadow: 8px 8px 5px grey;
 }
 
-#img-2 {
+#img-1-noticias {
     height: 50vh;
-    background-image: url("");
+    background-image: url("../img/img-1-noticia.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+#img-2-noticias {
+    height: 50vh;
+    background-image: url("../img/img-2-noticia.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+#img-3-noticias {
+    height: 50vh;
+    background-image: url("../img/img-3-noticia.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+#img-4-noticias {
+    height: 50vh;
+    background-image: url("../img/img-4-noticias.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+#img-5-noticias {
+    height: 50vh;
+    background-image: url("../img/img-5-noticia.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+#img-1-turismo {
+    height: 50vh;
+    background-image: url("../img/parc\ de\ la\ ciutadella.jpg");
     background-size: cover;
     background-position: center;
 }
 
-#img-3 {
+#img-2-turismo {
     height: 50vh;
-    background-image: url("");
+    background-image: url("../img/sagrada\ familia.jpg");
     background-size: cover;
     background-position: center;
 }
 
-#card-1 {
+#img-3-turismo {
     height: 50vh;
-    background-image: url("");
+    background-image: url("../img/pedrera.jpg");
     background-size: cover;
     background-position: center;
 }
 
-#card-2 {
-    height: 50vh;
-    background-image: url("");
+#img-1-act {
+    height: 34vh;
+    width: 35%;
+    background-image: url("../img/img-1-act.jpg");
     background-size: cover;
     background-position: center;
 }
 
-#card-3 {
-    height: 50vh;
-    background-image: url("");
+#img-2-act {
+    height: 34vh;
+    width: 35%;
+    background-image: url("../img/img-2-act.jpg");
     background-size: cover;
     background-position: center;
 }
 
-#card-4 {
-    height: 50vh;
-    background-image: url("");
+#img-3-act {
+    height: 30vh;
+    width: 45vh;
+    background-image: url("../img/img-3-act.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-1-aloj {
+    height: 34vh;
+    width: 35%;
+    background-image: url("../img/img-1-aloj.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-2-aloj {
+    height: 34vh;
+    width: 35%;
+    background-image: url("../img/img-2-aloj.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-3-aloj {
+    height: 34vh;
+    width: 35%;
+    background-image: url("../img/img-3-aloj.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -213,12 +284,36 @@ footer p {
     width: 12%;
 }
 
+#actividades {
+    box-shadow: 10px 10px 5px rgb(255, 174, 108);
+    background-color: rgb(242, 180, 126);
+    padding: 2%;
+    border-radius: 5px;
+    width: 16%;
+}
+
+#alojamiento {
+    box-shadow: 10px 10px 5px rgb(255, 174, 108);
+    background-color: rgb(242, 180, 126);
+    padding: 2%;
+    border-radius: 5px;
+    width: 16%;
+}
+
 #galeria {
     box-shadow: 10px 10px 5px rgb(255, 174, 108);
     background-color: rgb(242, 180, 126);
     padding: 2%;
     border-radius: 5px;
     width: 11%;
+}
+
+#noticias {
+    box-shadow: 10px 10px 5px rgb(255, 174, 108);
+    background-color: rgb(242, 180, 126);
+    padding: 5%;
+    border-radius: 5px;
+    width: 55%;
 }
 
 
@@ -232,14 +327,34 @@ footer p {
     padding: 6%;
 }
 
-.back-white {
-    background-color: rgb(242, 215, 208);
-}
-
-.back-gray {
-    background-color: rgb(217, 143, 143);
+.back-blue {
+    background-color: rgb(42, 56, 89);
     color: white;
 }
+
+.back-pink {
+    background-color: rgb(217, 143, 143);
+}
+
+.dec-noticias {
+    border-style: solid;
+    border-color: rgb(42, 56, 89);
+    background-color: rgb(42, 56, 89);
+    color: white;
+}
+
+.dec-web {
+    border-style: solid;
+    border-color: rgb(42, 56, 89);
+    background-color: rgb(42, 56, 89);
+    color: white;
+}
+
+
+/*Azul flojo --> rgb(96,126,166)*/
+
+
+/*Azul fuerte --> rgb(42,56,89)*/
 
 @media only screen and (max-width: 700px) {
     /*reglas*/
@@ -256,6 +371,10 @@ footer p {
         position: relative;
     }
     .column-75 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .column-news {
         width: 100%;
         margin-left: 0%;
     }
